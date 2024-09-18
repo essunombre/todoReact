@@ -1,0 +1,3 @@
+Now to modified variables and be interactive I need to yuse state:
+useState("")
+newItem, setNewItem
