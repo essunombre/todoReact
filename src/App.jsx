@@ -12,8 +12,8 @@ export default function App() {
 
   useEffect(() =>{
     localStorage.setItem("ITEMS", JSON.stringify(todos))
-    console.log('Soy todos')
-    console.log(localStorage)
+    // console.log('Soy todos')
+    // console.log(localStorage)
   }, [todos])
 
   function addTodo(title) {
@@ -42,7 +42,7 @@ export default function App() {
       return currentTodos.filter((todo) => todo.id !== id);
     });
   }
-  console.log(todos);
+  // console.log(todos);
 
   return (
     <>
